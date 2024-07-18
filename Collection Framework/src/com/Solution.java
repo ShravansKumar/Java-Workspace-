@@ -1,0 +1,31 @@
+package com;
+
+import java.util.*;
+
+class Solution {
+	public static void main(String[] args) {
+		LinkedList l=new LinkedList();
+		l.add(10);
+		l.add(20);
+		l.add(10);
+		l.add(10);
+		l.add(30);
+
+
+		System.out.println(l); //[10, 20, 10, 10, 30]
+		System.out.println(l.indexOf(10));
+		System.out.println(l.lastIndexOf(10));
+		System.out.println(l.indexOf(25));
+
+		System.out.println("-------");
+
+		ArrayList a1=new ArrayList();
+		a1.add(10);
+		LinkedList l1=new LinkedList(a1);
+		l1.add(20);
+		System.out.println(a1);
+		System.out.println(l1);
+
+	}
+
+}

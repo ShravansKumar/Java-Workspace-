@@ -1,0 +1,4 @@
+package storingobjects;
+
+class EmployeeMainClass {
+}

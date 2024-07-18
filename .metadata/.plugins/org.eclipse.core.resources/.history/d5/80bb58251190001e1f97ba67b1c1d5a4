@@ -1,0 +1,12 @@
+package storingobjects;
+
+class StudentMainClass {
+
+	
+	public static void main(String[] args) {
+		Student s=new Student(21,"Sahala");
+		new Student(23,"alvin");
+		
+		
+	}
+}
